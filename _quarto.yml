@@ -37,7 +37,6 @@ format:
   computo-html: default
   computo-pdf: default
 
-## Uncomment the following lines for R
 # execute: 
 #   warning: false
-#   error: false
+
