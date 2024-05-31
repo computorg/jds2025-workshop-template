@@ -237,11 +237,11 @@ The cost function parameter settings we employed in our experiments are listed i
 #| layout-ncol: 2
 
 # TODO: add the MNIST (using compute/mnist6000.csv data) four-panel figure from the mnist6000.csv file
-figlist <- ...
-figlist[[1]]
-figlist[[2]]
-figlist[[3]]
-figlist[[4]]
+# figlist <- ...
+# figlist[[1]]
+# figlist[[2]]
+# figlist[[3]]
+# figlist[[4]]
 ```
 
 
@@ -275,7 +275,7 @@ We start by choosing a desired number of neighbors and creating a neighborhood g
 The most obvious way to compute the random walk-based similarities $p_{j|i}$ is to explicitly perform the random walks on the neighborhood graph, which works very well in practice, given that one can easily perform one million random walks per second. Alternatively, @grady:random presents an analytical solution to compute the pairwise similarities $p_{j|i}$ that involves solving a sparse linear system. The analytical solution to compute the similarities $p_{j|i}$ is sketched in [Appendix -@sec-appendixb]. In preliminary experiments, we did not find significant differences between performing the random walks explicitly and the analytical solution. In the experiment we present below, we explicitly performed the random walks because this is computationally less expensive. However, for very large data sets in which the landmark points are very sparse, the analytical solution may be more appropriate.
 
 
-```{python}
+```{r}
 #| label: fig-random-walk-tsne
 #| fig-cap: "Visualization of 6,000 digits from the MNIST data set produced by the random walk version of t-SNE (employing all 60,000 digit images)."
 
