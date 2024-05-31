@@ -2,6 +2,16 @@
 
 [Workshop site](https://computo.sfds.asso.fr/jds2024-workshop/) for the JDS 2024 workshop on reproducible research.
 
+# Tempdate installation
+
+![](img/use-this-template.png)
+
+![](img/create-new-repo.png)
+
+![](img/select-all-branches.png)
+
+![](img/clone-repo.png)
+
 # Environment installation
 
 R
