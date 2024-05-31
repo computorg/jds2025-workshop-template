@@ -31,3 +31,7 @@ Python/conda (we recommand [microconda](https://mamba.readthedocs.io/en/latest/i
 ```shell
 conda env create -f environment.yml
 ```
+
+```shell
+quarto add computorg/computo-quarto-extension
+```
